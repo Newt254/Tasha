@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tasha's shoe Plug Kenya— Home</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Brian’s Footwear — Trendy, high-quality shoes. Follow us on Instagram for newest drops." />
+</head>
+<body>
+  <!-- Background video (replace file with your own) -->
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="C:\Users\USER\OneDrive\Desktop\Tasha\vid1.mp4" type="video/mp4">
+    <!-- fallback image: -->
+  </video>
+  <div class="bg-fallback" style="background-image:url('media/fallback-home.jpg');"></div>
+  <div class="site-overlay" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav role="navigation" aria-label="Main navigation" class="container">
+    <div class="brand">
+      <div class="logo">Tasha’s <span>Footwear Plug </span></div>
+      <div style="opacity:0.75;font-size:0.88rem">Style • Comfort • Confidence</div>
+    </div>
+
+    <div class="nav-links" role="menubar">
+      <a href="index.html" class="active" role="menuitem">Home</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="gallery.html" role="menuitem">Gallery</a>
+      <a href="testimonials.html" role="menuitem">Reviews</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <main class="page-hero" role="main">
+    <div class="hero-inner">
+      <h1>Step in <span>Style</span></h1>
+      <p class="lead">Premium shoes designed for everyday moments — comfort, quality, and modern edge. New drops posted regularly on Instagram.</p>
+
+      <div class="cta-row">
+        <a class="btn" href="gallery.html" aria-label="Explore collection">Explore Collection</a>
+        <a class="btn btn-ghost" href="https://instagram.com/" target="_blank" rel="noopener">Follow on Instagram</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer container" role="contentinfo">
+    <div style="margin-bottom:8px">
+      <strong>Follow</strong>
+      &nbsp;<a href="#" target="_blank" rel="noopener">Instagram</a> •
+      <a href="#" target="_blank" rel="noopener">Facebook</a> •
+      <a href="#" target="_blank" rel="noopener">TikTok</a> •
+      <a href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div>© <span id="year"></span> Tasha’s Footwear — Made with passion</div>
+  </footer>
+
+  <script>
+    // small script to set year (progressive enhancement)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

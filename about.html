@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Tasha’s Footwear</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="About Brian’s Footwear — Our story, values, and craft." />
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="C:\Users\USER\OneDrive\Desktop\Tasha\vid2.mp4" type="video/mp4">
+  </video>
+  <div class="bg-fallback" style="background-image:url('media/fallback-home.jpg');"></div>
+  <div class="site-overlay" aria-hidden="true"></div>
+
+  <nav class="container">
+    <div class="brand">
+      <div class="logo">Tasha’s <span>Footwear</span></div>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="page-hero">
+    <div class="hero-inner" role="region" aria-labelledby="about-title">
+      <h1 id="about-title">Our Story</h1>
+      <p class="lead">Founded with one goal: bring stylish, durable shoes to people who want quality without compromise. We source materials carefully and focus on fit, comfort, and contemporary silhouettes.</p>
+
+      <div class="owner-section">
+  <img src="C:\Users\USER\OneDrive\Desktop\Tasha\Tasha.jpg" alt="Tasha — Founder " class="owner-photo">
+  <div class="owner-text">
+    <h3>Meet Tasha</h3>
+    <p>Tasha is the creative force behind the brand — a passionate designer and entrepreneur who believes that every step should feel as good as it looks. With years of dedication to craftsmanship and comfort, she continues to inspire our vision for timeless, stylish footwear.</p>
+  </div>
+</div>
+
+      <div style="display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-top:22px">
+        <div style="max-width:340px">
+          <h3 style="margin-bottom:8px">Craft & Quality</h3>
+          <p style="margin:0;color:rgba(255,255,255,0.86)">Every pair is inspected and packaged by hand. We believe small details create long-lasting wear.</p>
+        </div>
+        <div style="max-width:340px">
+          <h3 style="margin-bottom:8px">Community</h3>
+          <p style="margin:0;color:rgba(255,255,255,0.86)">We collaborate with local artisans and give back with occasional community giveaways.</p>
+        </div>
+      </div>
+
+      <div class="cta-row" style="margin-top:22px">
+        <a class="btn" href="gallery.html">See Collection</a>
+        <a class="btn btn-ghost" href="contact.html">Get In Touch</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer container">
+    <div>Follow: <a href="#">Instagram</a> • <a href="#">Facebook</a></div>
+    <div>© <span id="year2"></span> Tasha’s Footwear</div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent=new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — Tasha’s Footwear</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Browse our shoe collection." />
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="C:\Users\USER\OneDrive\Desktop\Tasha\vid2.mp4" type="video/mp4">
+  </video>
+  <div class="bg-fallback" style="background-image:url('media/fallback-home.jpg');"></div>
+  <div class="site-overlay" aria-hidden="true"></div>
+
+  <nav class="container">
+    <div class="brand"><div class="logo">Tasha’s <span>Footwear</span></div></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="testimonials.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="page-hero">
+    <div class="hero-inner">
+      <h1>Collection</h1>
+      <p class="lead">A curated lineup — click an item to view on Instagram or message to order.</p>
+
+      <div class="gallery-grid" aria-live="polite">
+        <article class="card">
+          <img src="C:\Users\USER\OneDrive\Desktop\Tasha\image1.jpg" alt=" Classic Sneaker">
+          <div class="card-title">Nike Dunk Low sneakers</div>
+          <div class="card-sub">KSh 3,000 — Sizes 36–40</div>
+        </article>
+
+        <article class="card">
+          <img src="C:\Users\USER\OneDrive\Desktop\Tasha\image2.jpg" alt="classic Sneaker">
+          <div class="card-title">Timberland</div>
+          <div class="card-sub">KSh 3,500 — Sizes 40–45</div>
+        </article>
+
+        <article class="card">
+          <img src="C:\Users\USER\OneDrive\Desktop\Tasha\image3.jpg" alt="low-top sneaker in a solid white color">
+          <div class="card-title">low-top sneaker in a solid white color</div>
+          <div class="card-sub">KSh 3000 — Sizes 40–45</div>
+        </article>
+
+        <!-- duplicate items to show grid -->
+        <article class="card">
+          <img src="C:\Users\USER\OneDrive\Desktop\Tasha\image4.jpg" alt="New Balance 530 (Style) sneakers">
+          <div class="card-title">New Balance 530 (Style) sneakers</div>
+          <div class="card-sub">KSh 3,500 — Sizes 38–45</div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer container">
+    <div>Prefer to order on WhatsApp? <a href="https://wa.me/254702287332" target="_blank" rel="noopener">Chat now</a></div>
+    <div>© <span id="year3"></span> Tasha’s Footwear</div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent=new Date().getFullYear();</script>
+</body>
+</html>

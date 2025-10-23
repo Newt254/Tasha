@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reviews — Tasha’s Footwear</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Customer reviews and photos." />
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="media/bg-testimonials.mp4" type="video/mp4">
+  </video>
+  <div class="bg-fallback" style="background-image:url('media/fallback-home.jpg');"></div>
+  <div class="site-overlay" aria-hidden="true"></div>
+
+  <nav class="container">
+    <div class="brand"><div class="logo">Tasha’s <span>Footwear</span></div></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html" class="active">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="page-hero">
+    <div class="hero-inner">
+      <h1>What Customers Say</h1>
+      <p class="lead">Real customers, real style — we love seeing you wear our shoes. Tag us on Instagram to be featured.</p>
+
+      <div>
+        <div class="testimonial">
+          <p>“Incredible fit and the leather quality is top notch. Wore them the whole day — zero discomfort.”</p>
+          <strong>- Sam K., Nairobi</strong>
+        </div>
+
+        <div class="testimonial">
+          <p>“Fast delivery and great customer service. The shoes looked even better in person.”</p>
+          <strong>- Akina M., Meru</strong>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer container">
+    <div>Want to add your review? Message us on <a href="https://wa.me/254702287332" target="_blank" rel="noopener">WhatsApp</a>.</div>
+    <div>© <span id="year4"></span> Tasha’s Footwear</div>
+  </footer>
+
+  <script>document.getElementById('year4').textContent=new Date().getFullYear();</script>
+</body>
+</html>

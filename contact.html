@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Tasha’s Footwear</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Contact Taha’s Footwear — phone, email, and location." />
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="C:\Users\USER\OneDrive\Desktop\Tasha\vid1.mp4" type="video/mp4">
+  </video>
+  <div class="bg-fallback" style="background-image:url('media/fallback-home.jpg');"></div>
+  <div class="site-overlay" aria-hidden="true"></div>
+
+  <nav class="container">
+    <div class="brand"><div class="logo">Tasha’s <span>Footwear</span></div></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Reviews</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+
+  <main class="page-hero">
+    <div class="hero-inner">
+      <h1>Contact Us</h1>
+      <p class="lead">We respond quickly on WhatsApp — tap to chat or send an email.</p>
+
+      <div style="display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-top:18px">
+        <div style="min-width:260px;max-width:360px;text-align:left">
+          <h3>Phone</h3>
+          <p><a href="tel:+254702287332" style="color:var(--muted-white);text-decoration:none">+254 702287332</a></p>
+
+          <h3>WhatsApp</h3>
+          <p><a href="https://wa.me/254702287332" target="_blank" rel="noopener" style="color:var(--muted-white)">Chat on WhatsApp</a></p>
+
+          <h3>Email</h3>
+          <p><a href="mailto:gigsbrian19@gmail.com" style="color:var(--muted-white)">info@Tashafootwear.com</a></p>
+
+          <h3>Location</h3>
+          <p>Nairobi, Kenya — Pickup available by request.</p>
+        </div>
+
+        <div style="min-width:260px;max-width:480px">
+          <!-- Visual-only contact form (static) -->
+          <form action="#" method="POST" aria-label="Contact form">
+            <div class="form-grid">
+              <input class="input" type="text" name="name" placeholder="Your name" required>
+              <input class="input" type="email" name="email" placeholder="Email address" required>
+            </div>
+            <textarea name="message" placeholder="How can we help you?" required></textarea>
+            <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:10px">
+              <button type="submit" class="btn">Send Message</button>
+              <a class="btn btn-ghost" href="https://wa.me/254702287332" target="_blank" rel="noopener">Chat</a>
+            </div>
+            <div class="form-note">We reply within 24 hours. For orders, please use WhatsApp for fastest response.</div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer container">
+    <div>© <span id="year5"></span> Tasha’s Footwear</div>
+  </footer>
+
+  <script>document.getElementById('year5').textContent=new Date().getFullYear();</script>
+</body>
+</html>
